@@ -82,7 +82,8 @@ main section {
 /* featured section starts */
 
 .featured {
-    /* width: 1140px; */
+    width: 1440px;
+    margin: 128px auto;
 
 
 }
@@ -100,6 +101,9 @@ main section {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 78px 0px 78px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
 }
 
 .second-pic {
@@ -109,6 +113,9 @@ main section {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 120px 45px 50px 45px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
 }
 
 .third-pic {
@@ -118,5 +125,35 @@ main section {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 65px 75px 0px 75px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
 
+}
+
+/* info items starts here */
+.info {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px auto;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill {
+    padding: 90px 85px;
+}
+
+.skill-text {
+    padding-top: 30px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
 }
