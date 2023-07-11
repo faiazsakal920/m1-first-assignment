@@ -65,7 +65,7 @@ body {
     margin-bottom: 30px;
 }
 
-.banner .profilepic{
+.banner .profilepic {
     width: 630;
     height: 600px;
     padding-right: 140px;
@@ -131,7 +131,7 @@ main section {
 
 }
 
-.redtree{
+.redtree {
     margin-top: 55px;
 }
 
@@ -177,22 +177,74 @@ main section {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 100px 400px;
+    padding: 100px 300px;
     gap: 200px;
 
 }
 
 .hot-deals-title {
-    color: #272727;
+    text-align: center;
+
     font-size: 40px;
     font-weight: 800;
 }
 
-.hot-deals-description{
+.hot-deals-description {
+    width: 580px;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-top: 40px;
-margin-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+/* social media section */
+
+.social-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.social-first {
+    margin-right: 25px;
+}
+
+.social-second {
+    margin-right: 25px;
+}
+
+.social-third {
+    margin-right: 25px;
+}
+
+/* latest deals section */
+
+.subscribe {
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 200px auto;
+}
+
+.subscribe-title {
+    padding-top: 120px;
+}
+
+.subscribe-box {
+    text-align: center;
+}
+
+.email-box {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    padding-left: 22px;
+    margin-right: 10px;
+}
+
+/* footer section starts */
